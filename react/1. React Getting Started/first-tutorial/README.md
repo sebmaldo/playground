@@ -1,10 +1,7 @@
-# Primer tutorial de react
-
-## Tutorial
-Este código corresponde a seguir el tutorial de pluralsight [React Getting Started](https://www.pluralsight.com/courses/react-js-getting-started) de [Samer Buna](https://app.pluralsight.com/profile/author/samer-buna), es un buen punto de partida, un tutorial báisco que va introduciendo los conceptos de a poco.
+# Modulo 1 y 2
 
 ## Descripción general
-Primer tutorial de react, este tutorial tiene 3 componentes, un componente App que tiene la aplicación completa con su estado (App.js), un componente de boton incrementa un valor de acuerdo a un parámetro (Button.js), un componente de visualización para mostrar el resultado de la visualización (Result.js).
+Primer tutorial de react, este proyecto tiene 3 componentes, un componente App que tiene la aplicación completa con su estado (App.js), un componente de boton incrementa un valor de acuerdo a un parámetro (Button.js), un componente de visualización para mostrar el resultado de la visualización (Result.js).
 
 Se utilizó como base la app creada con create-react-app y los estilos de la misma para mayor facilidad y mejorar el look and feal de la página.
 
