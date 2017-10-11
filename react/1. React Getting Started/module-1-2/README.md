@@ -1,4 +1,4 @@
-# Modulo 1 y 2
+# Módulo 1 y 2
 
 ## Descripción general
 Primer tutorial de react, este proyecto tiene 3 componentes, un componente App que tiene la aplicación completa con su estado (App.js), un componente de boton incrementa un valor de acuerdo a un parámetro (Button.js), un componente de visualización para mostrar el resultado de la visualización (Result.js).
