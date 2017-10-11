@@ -8,7 +8,7 @@ Se utilizó como base la app creada con create-react-app y los estilos de la mis
 ## Reflexiones
 La componentización que permite react se ve muy interesante y es mucho más facil de utilizar que Angular, se ve incluso más limpio.
 
-El uso de JSX me hace un poco de ruido, aunque es claro y muy parecido a javascript, es medio raro meter en el stack un lenguaje más, siendo que podría ser solo javascript.
+El uso de RXJS me hace un poco de ruido, aunque es claro y muy parecido a javascript, es medio raro meter en el stack un lenguaje más, siendo que podría ser solo javascript.
 
 La componentización en clases es muy buena, pero creo que el uso de estados al crear la instancia de componente me causa algo de miedo porque estoy en la cruzada de utilizar programación funcional por lo que me puede causar algunos problemas un poco conceptuales.
 
