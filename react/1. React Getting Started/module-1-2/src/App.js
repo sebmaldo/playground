@@ -20,7 +20,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">First Tutorial</h1>
+          <h1 className="App-title">Módulo 1 y 2</h1>
         </header>
         <br/>
         <Button incrementValue={1} onClickFunction={this.incrementCounter}/>
