@@ -5,8 +5,8 @@ export default (props) => {
     return (
         <div>
             {
-                props.cards.map((card, i) => {
-                    return <Card key={i} {...card}/>
+                props.cards.map((card) => {
+                    return <Card key={card.id} {...card}/>
                 })
             }
         </div>
