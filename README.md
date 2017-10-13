@@ -7,3 +7,4 @@ Esto no prende en ningún caso ser un tutorial de algúna tecnología específic
     * [React.js Getting Started](https://github.com/sebmaldo/playground/tree/master/react/1.%20React%20Getting%20Started)
         * [Módulo 1 y 2](https://github.com/sebmaldo/playground/tree/master/react/1.%20React%20Getting%20Started/module-1-2)
         * [Módulo 3](https://github.com/sebmaldo/playground/tree/master/react/1.%20React%20Getting%20Started/module-3)
+        * [Módulo 4, 5 y 6]()

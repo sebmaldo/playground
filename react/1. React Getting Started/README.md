@@ -8,3 +8,4 @@ Este código corresponde a seguir el tutorial de pluralsight [React Getting Star
 
 * [Módulo 1 y 2](https://github.com/sebmaldo/playground/tree/master/react/1.%20React%20Getting%20Started/module-1-2)
 * [Módulo 3](https://github.com/sebmaldo/playground/tree/master/react/1.%20React%20Getting%20Started/module-3)
+* [Módulo 4, 5 y 6]()
