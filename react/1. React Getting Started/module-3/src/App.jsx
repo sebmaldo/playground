@@ -3,20 +3,8 @@ import CardList from './CardList';
 import Form from './Form';
 import logo from './logo.svg';
 import './App.css';
+import UserMessage from './UserMessage';
 const R = require('ramda');
-
-/** This should be components outside, but the course don`t have it so*/
-const UserInCard = (props)=>{
-  return (
-    <div className={props.display ? '' : 'hidden'}>The user is already in the cards.</div>
-  );
-}
-
-const UserNotFound = (props) => {
-  return (
-    <div className={props.display ? '': 'hidden'}>The user don't exists in github.</div>
-  );
-}
 
 class App extends Component {
 
@@ -67,9 +55,8 @@ class App extends Component {
         </header>
         <br/>
           <Form onSubmit={this.addNewCard} onError={this.errorInCall} onChange={this.hiddeErrors}/>
-          <UserInCard display={this.state.displayUserInCards}/>
-
-          <UserNotFound display={this.state.displayUserNotFound}/>
+          <UserMessage display={this.state.displayUserInCards} message={'User already in card list.'}/>
+          <UserMessage display={this.state.displayUserNotFound} message={'User not found in Github.'}/>
           <CardList cards={this.state.cards}/>
       </div>
       

@@ -8,11 +8,9 @@ class Form extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        console.log('Event from submit: ', this.state.userName);
         axios.get(`https://api.github.com/users/${this.state.userName}`)
             .then((resp)=> {
                 this.props.onSubmit(resp.data);
-                console.log(resp);
             })
             .catch(()=>{
                 this.props.onError();
